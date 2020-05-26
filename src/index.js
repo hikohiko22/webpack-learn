@@ -1,4 +1,7 @@
 import _ from 'lodash'
+import Neko from './utilities'
+
+console.log(Neko.say());
 
 function component() {
   const element = document.createElement('div');
